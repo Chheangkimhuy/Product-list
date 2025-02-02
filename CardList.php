@@ -34,7 +34,7 @@ $result = $connection->query($query);
                                     <p class="card-text"><strong>Quantity:</strong> <?php echo $row['qty']; ?></p>
                                     <p class="card-text fw-bold">Price: <?php echo number_format($row['price'], 2); ?>$</p>
                                 </div>
-                                <a href="cart.php?id=<?php echo $row['id']; ?>" class="btn btn-danger w-100">Add To Cart</a>
+                                <a href="cart.php?id=<?php echo $row['id']; ?>" class="btn btn-outline-success w-100">Add To Cart</a>
                             </div>
                         </div>
                     </div>
